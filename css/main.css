@@ -68,6 +68,7 @@ body {
 
   color: #e2e2e2;
   text-decoration: none;
+  transition: background-color 1000ms linear;
 }
 
 .chart__label {
