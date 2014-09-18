@@ -105,11 +105,18 @@ body {
   top: 0;
 
   background-color: rgba(127, 219, 255, 0.6);
+  /*
+  -ms-animation ""
+  -moz-animation ""
+  -o-animation ""
+  */
   -webkit-animation: chart__bar 400ms cubic-bezier(.5,.73,.55,1.28);
 }
 
 @-webkit-keyframes chart__bar {
   0% {top:100%;}
+  40% {top:0%;}
+  60% {top:50%;}
   100% {top:0%;}
 }
 
