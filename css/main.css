@@ -58,13 +58,13 @@ body {
   margin: 0 0.5%;
   position: relative;
   width: 7.3%;
-
+  transition: background-color 1000ms linear;
   background-color: rgba(204, 204, 204, 0);
 }
 
 .chart__item:hover{
   background-color: rgba(204, 204, 204, 1)
-  transition: background-color 1000ms linear;
+  
 }
 
 .chart__link,
